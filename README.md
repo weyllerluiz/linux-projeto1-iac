@@ -1,28 +1,28 @@
-# 🚀 Automacao de Estrutura de Usuarios e Permissoes no Linux
+# 🚀 Automação de Estrutura de Usuários e Permissões no Linux
 
-Este projeto consiste em um **script Bash** que automatiza a criacao de diretorios, grupos de usuarios e a definicao de permissoes no Linux. Ele e ideal para ambientes corporativos, garantindo **seguranca, organizacao e eficiencia** no gerenciamento de acessos.
+Este projeto consiste em um **script Bash** que automatiza a criação de diretórios, grupos de usuários e a definição de permissões no Linux. Ele é ideal para ambientes corporativos, garantindo **segurança, organização e eficiência** no gerenciamento de acessos.
 
 ## 📌 Funcionalidades
 
-✅ Criacao automatica de diretorios especificos:
-- `/publico` – Acesso irrestrito a todos os usuarios
-- `/adm`, `/ven`, `/sec` – Diretorios exclusivos para cada grupo
+✅ Criação automática de diretórios específicos:
+- `/publico` – Acesso irrestrito a todos os usuários.
+- `/adm`, `/ven`, `/sec` – Diretórios exclusivos para cada grupo.
 
 ✅ Gerenciamento de grupos:
-- `GRP_ADM`, `GRP_VEN` e `GRP_SEC` para segmentacao de usuarios
+- `GRP_ADM`, `GRP_VEN` e `GRP_SEC` para segmentação de usuários.
 
-✅ Criacao de usuarios com permissoes apropriadas
+✅ Criação de usuários com permissões apropriadas.
 
-✅ Definicao de permissoes nos diretorios, garantindo **seguranca e controle**
+✅ Definição de permissões nos diretórios, garantindo **segurança e controle**.
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Shell Script (Bash)** 🖥️
-- **Comandos Linux**: `mkdir`, `groupadd`, `useradd`, `chown`, `chmod`
+- **Comandos Linux**: `mkdir`, `groupadd`, `useradd`, `chown`, `chmod`.
 
 ## 🚀 Como Executar
 
-1. Baixe o script e conceda permissao de execucao:
+1. Baixe o script e conceda permissão de execução:
    ```bash
    chmod +x script.sh
    ```  
@@ -31,11 +31,12 @@ Este projeto consiste em um **script Bash** que automatiza a criacao de diretori
    sudo ./script.sh
    ```  
 
-## 🔥 Beneficios
+## 🔥 Benefícios
 
-✔️ Reducao de erros manuais  
-✔️ Facilidade na administracao de usuarios  
-✔️ Padronizacao da estrutura de acessos  
+✔️ Redução de erros manuais.  
+✔️ Facilidade na administração de usuários.  
+✔️ Padronização da estrutura de acessos.  
 
-💡 **Infraestrutura como Codigo (IaC) aplicada na pratica!**
+💡 **Infraestrutura como Código (IaC) aplicada na prática!**
+
 
